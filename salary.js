@@ -6,6 +6,11 @@
 //NHIF Deductions = grossSalary*NHIF RATE
 //NSSF Deductions = grossSalary*NSSF RATE
 //Taxable Income = Gross Salary - NHIF Deductions - NSSF Deductions
+//input numbers in grossSalary()
+//input numbers in nhifDeductions()
+//input numbers in nssfDeductions()
+//input numbers in tax()
+//input numbers in netSalary()
 
 
 const grossSalary = (basicSalary, Benefits) => {
@@ -28,13 +33,13 @@ const netSalary = (grossSalary, NHIFDeduction, NSSFDeduction,tax) => {
     console.log(`Net Salary ${grossSalary - NHIFDeduction - NSSFDeduction-tax}`);
 
 }
-grossSalary(2000000, 4000000);
+grossSalary(,);
 
-nhifDeductions(1200, 1800);
+nhifDeductions(,);
 
-nssfDeductions(1000, 500);
+nssfDeductions(,);
 
-tax(600000, 300000, 100000);
+tax(,);
 
-netSalary(6000000, 3000, 1500, 1000000);
+netSalary(,);
 
