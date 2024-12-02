@@ -18,6 +18,6 @@ function carPoints(points){
         console.log(`${points} "Your License has been suspended"`);
     }
 }
-   carSpeed(75);
-   carPoints(10);
+   carSpeed();
+   carPoints();
 
