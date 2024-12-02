@@ -1,5 +1,6 @@
 //A function that prompts the user to input student marks.The input should be between 0 and 100.The output should correspond the correct grade.
 //A>79, B- 60 to 79 C-59 to 49, D- 40 to 49, E- less than 40
+//input marks(integer) in invoked function calculateMark();
 
 function calculateMark(mark) {
     if (mark >79) {
@@ -15,9 +16,9 @@ function calculateMark(mark) {
       console.log(`${mark} -Grade E`);
     }
   }
-  calculateMark(80);
-  calculateMark(65);
-  calculateMark(55);
-  calculateMark(45);
-  calculateMark(20);
+  calculateMark();
+  calculateMark();
+  calculateMark();
+  calculateMark();
+  calculateMark();
   
