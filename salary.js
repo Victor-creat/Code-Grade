@@ -33,13 +33,13 @@ const netSalary = (grossSalary, NHIFDeduction, NSSFDeduction,tax) => {
     console.log(`Net Salary ${grossSalary - NHIFDeduction - NSSFDeduction-tax}`);
 
 }
-grossSalary(,);
+grossSalary();
 
-nhifDeductions(,);
+nhifDeductions();
 
-nssfDeductions(,);
+nssfDeductions();
 
-tax(,);
+tax();
 
-netSalary(,);
+netSalary();
 
